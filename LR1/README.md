@@ -13,5 +13,5 @@ def norm_cv(image, a, b):
     img = np.zeros((800, 800))
     norm_image = cv2.normalize(image, img, a, b, cv2.NORM_MINMAX)
     return norm_image
-'''
+''''
 
