@@ -72,7 +72,7 @@ def output(out):
     sorted, indices = torch.sort(out, descending=True)
     percentage = F.softmax(out, dim=1)[0] * 100.0
     results = [(classes[i], percentage[i].item()) for i in indices[0][:5]]
-    print("\nprint the first 5 classes the testing image belongs to")
+    print("\n5 наиболее вероятных классов")
     for i in range(5):
         print('{}: {:.4f}%'.format(results[i][0], results[i][1]))
 
@@ -89,21 +89,27 @@ transform = transforms.Compose([transforms.Resize(256), transforms.CenterCrop(22
 with open('imagenet_classes1.txt') as labels:
     classes = [i.strip() for i in labels.readlines()]
 
+print('AlexNet')
 accuracy_top1(alexnet)
 accuracy_top5(alexnet)
+
+print('ResNet50')
 accuracy_top1(resnet)
 accuracy_top5(resnet)
+
+print('InceptionV3')
 accuracy_top1(inception)
 accuracy_top5(inception)
 
 folder_dir = "animals\goose"
 for images in os.listdir(folder_dir):
-    if (images.endswith(".jpg")):
+    if (images.endswith("6bb8056eaa.jpg")):
         img = Image.open(folder_dir + '/' + images)
         # print(images)
         # img.show()
         img_t = transform(img)
         batch_t = torch.unsqueeze(img_t, 0)
+
         alexnet.eval()
         out_alexnet = alexnet(batch_t)
         output(out_alexnet)
