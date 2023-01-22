@@ -74,6 +74,25 @@ def sift_flann(image_og, image_temp):
     plt.imshow(img3),plt.show()
 ```
 # Результаты работы системы
+Исходное изображения, по которому осуществлялся поиск:
+
+![Field](https://user-images.githubusercontent.com/79449892/213919597-583396f7-f0b8-43bf-bcc1-8a5eecf9e852.jpg)
+
+Часть исходного изображения, поиск которой осуществлялся:
+
+![Field_test](https://user-images.githubusercontent.com/79449892/213919604-4f8bb645-117c-4e99-8e9f-347eec9e9ad9.jpg)
+
+Результат поиска template matching:
+
+![image](https://user-images.githubusercontent.com/79449892/213919483-d13e3b76-093b-429e-b13b-859c9a17d6aa.png)
+
+Резльтат поиска ключевых точек BFMatcher (10 лучших значений):
+
+![image](https://user-images.githubusercontent.com/79449892/213919552-38cfd04a-e2c8-4769-8ea1-7d5eba4ceaf6.png)
+
+Резльтат поиска ключевых точек FLANN (10 лучших значений):
+
+![image](https://user-images.githubusercontent.com/79449892/213919571-fc9366e5-b960-4a6d-9a60-7e2906fc372d.png)
 
 
 # Выводы по работе
