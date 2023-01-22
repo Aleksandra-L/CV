@@ -94,9 +94,182 @@ def sift_flann(image_og, image_temp):
 
 ![image](https://user-images.githubusercontent.com/79449892/213919571-fc9366e5-b960-4a6d-9a60-7e2906fc372d.png)
 
+Было проведено тестирование работы системы на подборке изображений архитектуры. Результаты представлены ниже.
+
+Исходное изображение:
+
+![trevi](https://user-images.githubusercontent.com/79449892/213924153-bdbc228f-ee75-41ec-9150-da9d4ec3ed1d.jpg)
+
+Изображение для поиска:
+
+![image](https://user-images.githubusercontent.com/79449892/213924271-7920c5b6-5533-4751-b2e5-263b5db35022.png)
+
+Template matching:
+
+![image](https://user-images.githubusercontent.com/79449892/213924131-49640564-2543-4c0c-9152-f18af31a6f75.png)
+
+BFMatcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924199-0918d0d5-b589-4488-a13c-d7e903a0441f.png)
+
+FLANN matcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924210-2c4e7546-e8b2-48a8-b95f-637ca50a8d99.png)
+
+Изображение для поиска:
+
+![trevi4](https://user-images.githubusercontent.com/79449892/213924340-a06aa3d7-cc70-4ff7-8dea-e48dbbc87e8c.jpg)
+
+Template matching:
+
+![image](https://user-images.githubusercontent.com/79449892/213924382-6581d8bb-ba64-4a25-82d5-4ddd9ba2922a.png)
+
+BFMatcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924416-cc446fe9-f2d4-49d1-832f-84abdf1a1ee3.png)
+
+FLANN matcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924431-911d7c8d-eb59-491b-b72d-188e421cce1d.png)
+
+Изображение для поиска:
+
+![trevi3](https://user-images.githubusercontent.com/79449892/213924437-dc42cce0-799a-4a3c-83c5-49b32386458e.jpg)
+
+Template matching:
+
+![image](https://user-images.githubusercontent.com/79449892/213924460-48a12abd-26bb-4ca9-84fa-cefa253ecb63.png)
+
+BFMatcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924483-9bc7d6eb-05e2-42b2-a69d-cd566cf4b8d4.png)
+
+FLANN matcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924495-42955956-0f74-449d-ab59-285868180cea.png)
+
+Изображение для поиска:
+
+![trevi2](https://user-images.githubusercontent.com/79449892/213924525-a8a34a6e-3f91-45c1-8a59-df19656c1b3d.jpg)
+
+Template matching:
+
+![image](https://user-images.githubusercontent.com/79449892/213924521-fc20030f-ad6a-48db-bd10-f05c22b1640b.png)
+
+BFMatcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924553-b20a4877-78b9-4e4e-81e1-4ec6d56e2fa7.png)
+
+FLANN matcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924566-65ac4b5f-2a8d-46ba-9d03-df5c5b22c629.png)
+
+Изображение для поиска:
+
+![trevi1](https://user-images.githubusercontent.com/79449892/213924577-ef76f90f-a42d-4e18-9d2d-ffe02a9149ea.jpg)
+
+Template matching:
+
+![image](https://user-images.githubusercontent.com/79449892/213924630-e1fcec4e-ac4c-4527-b723-2da661461e61.png)
+
+BFMatcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924660-be5be6eb-73af-43ba-a26f-b54a553b433f.png)
+
+FLANN matcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924669-e90096d2-6295-4cc4-8146-e36e757259f6.png)
+
+Исходное изображение:
+
+![isaac](https://user-images.githubusercontent.com/79449892/213924767-a9089f86-e2fc-4d31-a44d-6a3fd1910bf5.jpg)
+
+Изображение для поиска:
+
+![isaac2](https://user-images.githubusercontent.com/79449892/213924776-f9784384-6eb5-4cbc-887d-7cdd117e97cc.jpg)
+
+Template matching:
+
+![image](https://user-images.githubusercontent.com/79449892/213924722-2bfd40aa-23a4-4364-9d1a-c308068d490a.png)
+
+BFMatcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924747-f6761feb-ffeb-42f3-a262-852331f7b57a.png)
+
+FLANN matcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924764-3916fe4c-4824-4e7f-a5be-a8cd6631cb49.png)
+
+Изображение для поиска:
+
+![isaac3](https://user-images.githubusercontent.com/79449892/213924795-d8c7e07a-5505-4387-a2ba-0defaae13eef.jpg)
+
+Template matching:
+
+![image](https://user-images.githubusercontent.com/79449892/213924842-6542fe6a-19c2-435d-b6d0-f34327eec47d.png)
+
+BFMatcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924813-ed700f4c-0131-4e8d-8603-014dd15f49c1.png)
+
+FLANN matcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924824-e26cae20-99e4-45e4-a776-a0771a22e7af.png)
+
+Исходное изображение:
+
+![Eifel](https://user-images.githubusercontent.com/79449892/213924862-e77d7e76-67e4-46cd-8b8e-9ab7ce1c04eb.jpg)
+
+Изображение для поиска:
+
+![Eifel2](https://user-images.githubusercontent.com/79449892/213924871-473b4ac4-4885-4ba8-a964-ce2fd56f586b.jpg)
+
+Template matching:
+
+![image](https://user-images.githubusercontent.com/79449892/213924899-9432e8fd-21b4-4fa9-9fe3-5e6cc0cd943f.png)
+
+BFMatcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924914-72ac3b25-ec93-41f0-8a38-281f45a31424.png)
+
+FLANN matcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924925-2c1bfb34-dc5c-4736-ba59-15e26815c605.png)
+
+Изображение для поиска:
+
+![Eifel3](https://user-images.githubusercontent.com/79449892/213924989-a00183cf-eaa5-48b5-9969-6c42507cb1ab.jpg)
+
+Template matching:
+
+![image](https://user-images.githubusercontent.com/79449892/213924980-ff991c8b-5bcd-448b-b84f-4e893c894b5f.png)
+
+BFMatcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924949-8bd69423-b2f9-40d9-aaa5-a73b5db41e82.png)
+
+FLANN matcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213924968-f5479825-d692-416f-8c11-8f7b1c46b870.png)
+
+Изображение для поиска:
+
+![Eifel4](https://user-images.githubusercontent.com/79449892/213925003-e1305b52-e3d2-47c2-a8c2-e8053b324502.jpg)
+
+Template matching:
+
+![image](https://user-images.githubusercontent.com/79449892/213925036-97204906-bd5f-4f57-88fd-74991f251e19.png)
+
+BFMatcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213925075-91cb9d9b-aaa4-4bad-94fd-8b06cae6fcdc.png)
+
+FLANN matcher:
+
+![image](https://user-images.githubusercontent.com/79449892/213925080-4fd85078-d089-4223-a24f-32c14fde06e9.png)
 
 # Выводы по работе
-
+В результате выполнения лабораторной работы была создана система детектирования объектов. После тестирования системы на различных изображениях можно сделать вывод, что поиск по шаблону абсолютно неэффективен, если изображение не является частью исходного. Алгоритм SIFT довольно точен, несмотря на изменения ракурса и освещения, однако иногда и он не справляется с поиском. Поиск идет не очень точно на изображениях с большим количеством деталей.
 
 # Источники
 https://habr.com/ru/company/joom/blog/445354/
