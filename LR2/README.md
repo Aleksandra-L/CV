@@ -81,9 +81,15 @@ def sift_flann(image_og, image_temp):
 
 # Источники
 https://habr.com/ru/company/joom/blog/445354/
+
 https://docs.opencv.org/3.4/de/da9/tutorial_template_matching.html
+
 https://docs.opencv.org/3.4/df/dfb/group__imgproc__object.html#gga3a7850640f1fe1f58fe91a2d7583695dab65c042ed62c9e9e095a1e7e41fe2773
+
 https://docs.opencv.org/4.x/da/df5/tutorial_py_sift_intro.html
+
 https://habr.com/ru/post/106302/
+
 https://ru.wikipedia.org/wiki/Масштабно-инвариантная_трансформация_признаков
+
 https://docs.opencv.org/4.x/dc/dc3/tutorial_py_matcher.html
