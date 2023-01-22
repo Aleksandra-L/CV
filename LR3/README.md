@@ -32,3 +32,19 @@
 Результат классификации при помощи модели InceptionV3:
 
 ![image](https://user-images.githubusercontent.com/79449892/213930424-d152b22a-740d-4bff-8a68-8226d333a138.png)
+
+# Оценка точности модели
+Была проведена оценка точности моделей. Полученные результаты свидетельствуют о том, что наиболее точной является модель InceptionV3, а наименее точной - AlexNet
+
+![image](https://user-images.githubusercontent.com/79449892/213930631-05698829-e07a-42dc-8271-b156f1b242ee.png)
+
+
+# Источники
+
+https://pytorch.org/docs/stable/torch.html
+
+https://pytorch.org/vision/main/models/generated/torchvision.models.resnet50.html
+
+https://pytorch.org/vision/main/models/alexnet.html
+
+https://pytorch.org/vision/main/models/inception.html
