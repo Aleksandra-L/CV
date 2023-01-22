@@ -54,27 +54,3 @@ while True:
     if keyboard.is_pressed('1'):
         cv2.destroyAllWindows()
         break
-
-# vid_capture = cv2.VideoCapture('D:\LR.mp4')
-# if (vid_capture.isOpened() == False):
-#     print("Ошибка открытия видеофайла")
-# while (vid_capture.isOpened()):
-#
-#     ret, frame = vid_capture.read()
-#     if ret == True:
-#
-#         cv2.imshow('Frame', frame)
-#
-#         if cv2.waitKey(10) & 0xFF == ord('q'):
-#             break
-#
-#     else:
-#         break
-#
-# vid_capture.release()
-# cv2.destroyAllWindows()
-#
-# cv2.namedWindow('image', cv2.WINDOW_NORMAL)
-# cv2.resizeWindow('image', 800, 500)
-# cv2.imshow('image', gray)
-# cv2.waitKey(0)
