@@ -23,46 +23,47 @@
 
 # Обученная модель
 
-За основу была выбрана модель YOLOv5s, которую мы самостоятельно обучали на тренировочной выборке нашего датасета. Обучение модели заняло около трех часов. После обучения модели были получены следующие графики-результаты оценки модели:
+Выборка, использованная при обучении модели, была разбита на три части: train, val и test 
+За основу была выбрана модель YOLOv5s, которую мы самостоятельно обучали на тренировочной выборке датасета. Обучение модели заняло около трех часов. После обучения модели были получены следующие графики-результаты оценки модели:
 
-![image](https://user-images.githubusercontent.com/79449892/214260697-8455df95-f2ab-44ef-8e17-60434663b3eb.png)
+![image](https://user-images.githubusercontent.com/79449892/214305589-8831c4b8-4aef-4362-adf3-ef32a5c2b4cc.png)
 
-![image](https://user-images.githubusercontent.com/79449892/214260747-6067e4d4-33b0-4840-a239-d3d7df4e04f2.png)
+![image](https://user-images.githubusercontent.com/79449892/214305507-51d039da-fbfd-483b-b8cc-73b21f5364b7.png)
 
 # Результаты работы модели
 После запуска модели на тестовом датасете были получены следующие результаты:
 
 Исходное изображение
 
-![image](https://user-images.githubusercontent.com/79449892/214261350-3a68436d-f1fd-41c0-9c1a-f729a9cfd978.png)
+![image](https://user-images.githubusercontent.com/79449892/214305736-adca0e57-654a-4f66-a02b-ca35137f6276.png)
 
 Результат распознавания:
 
-![image](https://user-images.githubusercontent.com/79449892/214261402-ea1d8ba7-dd43-4586-9fec-7ca2e516cfae.png)
+![image](https://user-images.githubusercontent.com/79449892/214305796-1a685bf2-a4f5-4d94-97d1-bf1f38eb1e9d.png)
 
 Исходное изображение:
 
-![image](https://user-images.githubusercontent.com/79449892/214261605-b57445af-b892-416c-9fc1-58ab4ec2a36a.png)
+![image](https://user-images.githubusercontent.com/79449892/214305943-1f2d46c9-7bf4-4012-868d-82ed23b1c6a0.png)
 
 Результат распознавания:
 
-![image](https://user-images.githubusercontent.com/79449892/214261659-b1cbbfde-c422-4474-abfb-4a54866f319c.png)
+![image](https://user-images.githubusercontent.com/79449892/214305996-a182fec0-7738-4938-b76b-b3cc94806078.png)
 
 Исходное изображение:
 
-![image](https://user-images.githubusercontent.com/79449892/214261737-d2c16496-258f-48aa-9fcd-3e67b9e4ebc2.png)
+![image](https://user-images.githubusercontent.com/79449892/214307005-22f8aa8a-40f6-4f53-a1de-2209d9b06d3a.png)
 
 Результат распознавания:
 
-![image](https://user-images.githubusercontent.com/79449892/214261827-54d7eb6b-315b-4e45-a31b-dfb3ec03687c.png)
+![image](https://user-images.githubusercontent.com/79449892/214307063-39e6ce9f-d9b5-48c0-8d05-e5ee2c0f30da.png)
 
 Исходное изображение:
 
-![image](https://user-images.githubusercontent.com/79449892/214261954-85d3b97c-1a1a-4e3f-8241-8f3e54efc0e0.png)
+![image](https://user-images.githubusercontent.com/79449892/214307181-70e845b4-2503-4590-8388-04c5166b5240.png)
 
 Результат распознавания:
 
-![image](https://user-images.githubusercontent.com/79449892/214262042-f5c5f630-9278-4b78-aeab-6d380a648d80.png)
+![image](https://user-images.githubusercontent.com/79449892/214307273-76fbaa03-8259-457e-9d8f-89dff165ad62.png)
 
 # Источники
 
