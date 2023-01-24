@@ -65,7 +65,11 @@
 ![image](https://user-images.githubusercontent.com/79449892/214262042-f5c5f630-9278-4b78-aeab-6d380a648d80.png)
 
 # Источники
+
 https://github.com/ultralytics/yolov5
+
 https://pytorch.org/docs/stable/index.html
+
 https://pillow.readthedocs.io/en/stable/index.html
+
 https://docs.python.org/3/library/xml.etree.elementtree.html
